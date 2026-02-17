@@ -1,99 +1,62 @@
-# **🧪 Sesión 1 – Representaciones Moleculares con RDKit**
+# **🧪 Chemoinformatics Applied to Drug Design – 2026**
 
-This repository contains the solution to Session 1 Assignment – Molecular Representations, developed using Python, RDKit, and molecular visualization tools.
+This repository contains course materials, notebooks, assignments, datasets, and computational exercises developed throughout the program.
 
-The project focuses on computational chemistry fundamentals, including molecular representations, structural isomers, and privileged scaffolds in drug design.
+**📖 About the Course**
+Chemoinformatics has become a fundamental pillar in modern drug discovery and medicinal chemistry. It integrates computational methods, chemical data analysis, and molecular modeling to accelerate the design of new bioactive compounds.
+This course provides both theoretical foundations and hands-on programming experience using real molecular databases and cheminformatics tools.
 
-**📚 Project Description**
+**🎓 Instructor Group:**
+Research Group of Dr. José Luis Medina Franco (SNI Level 3)
+DIFACQUIM Group, Department of Pharmacy, Faculty of Chemistry, UNAM
+Course Coordination: Raziel Cedillo González
+Contributors: Fernanda I. Saldívar González, Diana L. Prado Romero
 
-This notebook explores different computational representations of organic molecules and applies cheminformatics tools to:
+**🧠 Course Topics**
+🔹 Day 1 – Introduction & Molecular Representations
+Foundations of chemoinformatics
+Differences vs. theoretical chemistry, molecular modeling, bioinformatics
+Molecular representations (SMILES, 2D, 3D)
 
-Generate 2D and 3D molecular structures
+🔹 Day 2 – Molecular Databases
+Overview of public chemical databases
+Programmatic data mining from PubChem
 
-Work with SMILES and SMARTS
+🔹 Day 3 – ChEMBL Data Mining
+Retrieval of bioactivity data
+Structured dataset preparation
 
-Identify structural isomers
+🔹 Day 4 – Molecular Descriptors & Data Analysis
+Descriptor calculation
+Property visualization
+Correlation analysis
 
-Analyze privileged structures in medicinal chemistry
+🔹 Day 5 – Chemical Space
+Concept of chemical space
+Visualization techniques
 
-The work was developed as part of an academic assignment in cheminformatics / computational chemistry.
+🔹 Day 6 – Chemical Similarity
+Similarity metrics
+Structure–activity relationships (SAR)
+Activity landscapes
 
-**🧰 Technologies Used**
+🔹 Day 7 – Library Enumeration
+SMARTS and SMIRKS
+Reaction encoding
+Chemical library generation
 
+**🛠 Technologies Used**
 Python 3.x
-
 RDKit
-
-py3Dmol
-
-Requests
-
+Pandas & NumPy
+Matplotlib / Seaborn
+Scikit-learn
 Jupyter Notebook
+ChEMBL & PubChem APIs
 
-**⚙️ Installation**
+**📜 License**
+This repository is intended for educational purposes.
+Course materials belong to their respective instructors and contributors.
 
-It is recommended to use a virtual environment.
-
-1️⃣ Clone the repository
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-
-2️⃣ Install dependencies
-
-Inside the notebook, the following packages are installed:
-
-%pip install rdkit
-%pip install py3Dmol
-%pip install requests
-
-Alternatively, you can install them manually:
-pip install rdkit py3Dmol requests
-
-**🧪 Assignment Content**
-🔹 Exercise 1 – Molecular Representations
-
-For selected compounds, different types of molecular representations were generated using RDKit, including:
-Canonical SMILES
-2D structural depictions
-3D conformers
-Molecular descriptors
-
-🔹 Exercise 2 – Structural Isomers of Pentane (C₅H₁₂)
-
-Identification of all structural isomers of pentane
-Determination of their corresponding SMILES
-Visualization of branching points
-
-Isomers studied include:
-n-Pentane
-Isopentane (2-methylbutane)
-Neopentane (2,2-dimethylpropane)
-
-🔹 Exercise 3 – Privileged Structures in Drug Design
-
-Three privileged scaffolds were selected and analyzed:
-Flavonoid
-Steroid
-Indole
-
-For each structure:
-Chemical structure was drawn
-SMARTS pattern was defined
-Example bioactive compounds were identified
-Substructures were highlighted using RDKit
-
-**🎯 Learning Objectives**
-
-Understand molecular representations in cheminformatics
-Work with SMILES and SMARTS formats
-Generate and visualize molecular conformations
-Recognize important scaffolds in medicinal chemistry
-Apply RDKit for structural analysis
-
-**👨‍🔬 Author**
-
-Juan David Sánchez
-Computational Chemistry / Cheminformatics Student
-
-**📄 License**
-This project is for academic purposes.
+**📩 Contact**
+For academic inquiries related to the course, please contact the course coordination team.
