@@ -1,10 +1,10 @@
-🧪 Tarea 1 – Representaciones Moleculares con RDKit
+#**🧪 Tarea 1 – Representaciones Moleculares con RDKit**
 
 This repository contains the solution to Session 1 Assignment – Molecular Representations, developed using Python, RDKit, and molecular visualization tools.
 
 The project focuses on computational chemistry fundamentals, including molecular representations, structural isomers, and privileged scaffolds in drug design.
 
-📚 Project Description
+#**📚 Project Description**
 
 This notebook explores different computational representations of organic molecules and applies cheminformatics tools to:
 
@@ -18,7 +18,7 @@ Analyze privileged structures in medicinal chemistry
 
 The work was developed as part of an academic assignment in cheminformatics / computational chemistry.
 
-🧰 Technologies Used
+#**🧰 Technologies Used**
 
 Python 3.x
 
@@ -30,12 +30,12 @@ Requests
 
 Jupyter Notebook
 
-📂 Repository Contents
+#**📂 Repository Contents**
 .
 ├── Tarea 1_Juan David Sánchez.ipynb   # Main notebook
 └── README.md
 
-⚙️ Installation
+#**⚙️ Installation**
 
 It is recommended to use a virtual environment.
 
@@ -56,7 +56,7 @@ Alternatively, you can install them manually:
 
 pip install rdkit py3Dmol requests
 
-🧪 Assignment Content
+#**🧪 Assignment Content**
 🔹 Exercise 1 – Molecular Representations
 
 For selected compounds, different types of molecular representations were generated using RDKit, including:
@@ -105,7 +105,7 @@ Example bioactive compounds were identified
 
 Substructures were highlighted using RDKit
 
-🎯 Learning Objectives
+#**🎯 Learning Objectives**
 
 Understand molecular representations in cheminformatics
 
@@ -117,7 +117,7 @@ Recognize important scaffolds in medicinal chemistry
 
 Apply RDKit for structural analysis
 
-▶️ How to Run
+#**▶️ How to Run**
 
 Open the notebook:
 
@@ -126,7 +126,7 @@ jupyter notebook
 
 Then run all cells sequentially.
 
-👨‍🔬 Author
+#**👨‍🔬 Author**
 
 Juan David Sánchez
 Computational Chemistry / Cheminformatics Student
